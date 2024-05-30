@@ -1,0 +1,58 @@
+body{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f3f3f3;
+    flex-direction: column;
+    margin: 0;
+}
+h1{
+color:rgb(188, 9, 9);
+text-align: center;
+}
+.container{
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    transition:transform 0.2s;
+    width: 85%;
+    text-align: center;
+}
+.cancelbtn{
+  background-color: red;
+  color: antiquewhite;
+  padding: 1%;
+  padding-inline: 15px;
+  font-weight: bold;
+  border-color: black;
+  border-width: 1px;
+  cursor: pointer;
+  
+}
+.logbtn{
+  background-color:green;
+  color: antiquewhite;
+  padding: 1%;
+  padding-inline: 13vh;
+  font-weight: bold;
+  border-color: black;
+  border-width: 1px;
+  cursor: pointer;   
+}
+button:hover{
+  opacity: 0.7;
+}
+@media screen and (max-width:300px){
+  span.psw{
+    display: block;
+    float: none;
+  }
+  .cancelbtn{
+    width:100%;
+  }
+}
+.avatar1{
+  border-radius: 40%;
+  width: 20%;
+}

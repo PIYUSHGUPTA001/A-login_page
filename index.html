@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container">
+        <h1>Quora</h1>
+        <h3 > Enter your  credentials   </h3>
+     <form action="/action_page.php"
+        method="get">
+        <img src="avatar.jpg" alt="avatar" class="avatar1">
+        <br/>
+        <label for="uname"><b>Username</b>
+        </label> 
+        <br/>
+        <input type="text" placeholder="Enter Username" name="uname" required><br/>
+        <br/>
+
+
+        <label for="psw"><b>Password</b>
+        </label>
+        <br/>
+        <input type="password" placeholder=" Enter Your Password" name="psw"  required>
+        <br/>
+        <br/>
+
+        <button class="logbtn" type="submit">Login</button>
+        <br/>
+        <br/>
+        <label>
+            <input type="checkbox" checked="checked" name="remember">Remember me
+        </label>
+        <br/>
+        <br/>
+        <button class="cancelbtn" id="curl" type="button"> Cancel</button>
+        <span class="psw" id="insta"><a href="#">           Forgot password?</a></span>
+     </form>
+    </div>
+    <script>
+        document.getElementById("curl").onclick=function(){
+            window.location.href='https://www.youtube.com/';
+        }
+        document.getElementById("insta").onclick=function(){
+            window.location.href='https://www.instagram.com/accounts/password/reset/?hl=en'
+        }
+    </script>
+     
+</body>
+</html>
